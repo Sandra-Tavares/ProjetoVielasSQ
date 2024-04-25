@@ -1,0 +1,42 @@
+.container{
+    background-color: #E5401B;
+    border: 1px solid #707070;
+    margin: 0 ;
+    padding: 1rem;
+    opacity: 1;
+    text-align: center;
+    display: flex;
+}
+
+.vielas{
+    color:#FFFFFF;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 0 300
+}
+
+.icon{
+    color: #000000;
+    text-align: left;
+    margin: 0 400 0 0;
+    flex-grow: 1;
+}
+
+.textos1{
+    color:#000000;
+    justify-content: center;
+    margin: 35 0 0 100;
+    line-height: 5px;
+    flex-basis: 0px;
+    flex-grow: 1;
+    text-align: initial;
+}
+
+#icon {
+    order: 3;
+}
+
+
+h3 {
+    font-family: 'Space Mono', Bold;
+}
