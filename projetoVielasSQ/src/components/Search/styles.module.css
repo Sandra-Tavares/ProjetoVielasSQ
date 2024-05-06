@@ -6,8 +6,10 @@
     
 }
 .pesquisa {  
-    width: 700px;
+    width: 50%;
     margin-top: 30px;
+    align-items: center;
+    margin-left: 278px;
     }
 .pesquisa input[type='text']{
     width: 100%;
@@ -17,35 +19,42 @@
     box-sizing: border-box;
     font-size: 16px;
     outline: none;
+    margin-left: 140px;
 }
 
     .barraMenu {
-        width: 100px;
+        width: 30%;
         display: flex;  
-        gap: 22px;
         background-color: #ffff;
         margin-top: 10px;
+        margin-left: 120px;
     }
 
     .barraMenu a {
         color: black; 
         text-decoration: none; 
+        margin-left: 140px;
       }
 
       .barraMenu a:hover {
         color: #4761B4; 
+        margin-left: 140px;
       }
 
 .colecoes{
     margin-top: 10px;
     display:flex;
-    width: 1600px;
+    width: 100%;
+    margin-left: 140px;
     
 }
 .contentWrapper{
     display: flex;
-    width: 1200px;
+    width: 100%;
     gap:10px;
+    border: red solid;
+    justify-content: center;
+    margin-left: 140px;
 }
 
 .textos{
@@ -56,6 +65,8 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
+
+    
 }
 
 .foto1 img{
@@ -68,19 +79,21 @@
     margin:0;
 }
 .container_colecoes {
-    width: 1000px;
+    width: 100%;
     padding: 20px; 
     margin-bottom: 40px; /* Adiciona espaço entre os blocos */
   }
   
   .container_colecoes h3 {
     margin-bottom: 10px;
+    justify-content: center;
   }
   
   .cardWrapper {
     display: flex;
     flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
     gap: 20px; /* Espaçamento entre as imagens */
+    justify-content: center;
   }
   
   .card {

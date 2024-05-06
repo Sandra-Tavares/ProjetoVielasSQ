@@ -12,6 +12,7 @@
     cursor: pointer;
     align-items: center;
     gap: 10px;
+    margin-left:139px;
 }
 
 .header {
@@ -22,11 +23,13 @@
     background: #4761B4;
     color: #fff;
     align-items: center;
+    width: 100%;
+    border: red;
     
 }
 nav {
     height: 70px;
-    width: 30%;
+    width: 100%;
     
 }
 
