@@ -12,7 +12,9 @@
     cursor: pointer;
     align-items: center;
     gap: 10px;
-    margin-left:139px;
+
+ 
+     
 }
 
 .header {
@@ -24,12 +26,13 @@
     color: #fff;
     align-items: center;
     width: 100%;
-    border: red;
+    
     
 }
 nav {
     height: 70px;
-    width: 100%;
+    width: 70%;
+    margin-left: 73px;
     
 }
 
@@ -42,11 +45,14 @@ nav {
  align-items: center;
  gap: 5px;
  font-size: 2rem;
+ margin-right: 73px;
 }
 
 .login {
     font-size: 1rem;
     color:#CCCCCC;
+    
+
 }
 
 

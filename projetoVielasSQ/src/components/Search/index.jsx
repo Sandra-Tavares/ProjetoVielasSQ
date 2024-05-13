@@ -7,7 +7,7 @@ export const Search = () => {
         <div className={styles.pesquisa}>
           <input type='text' placeholder="BUSCA" />
         </div>
-        <div>
+        <div className={styles.containerMenu}>
           <ul className={styles.barraMenu}>
             <li><a href="#">#Paraisopolis</a></li>
             <li><a href="#">#Saúde</a></li>

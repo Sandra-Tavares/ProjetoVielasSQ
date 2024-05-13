@@ -23,9 +23,10 @@ export const Footer = () =>  {
                <div className={styles.textos1}>
                  <p>Quem Somos</p>
                  <p>Equipe</p>
-                 <p>poie</p>
+                 <p>Apoie</p>
                  <p>Fale Conosco</p>
                </div>
     </div>
+  
   )
 }
