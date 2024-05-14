@@ -11,8 +11,8 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 83px;
-  margin-right: 83px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .pesquisa input[type='text']{
