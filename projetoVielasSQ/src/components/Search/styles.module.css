@@ -5,14 +5,36 @@
     font-family: 'Space Mono', monospace;
     
 }
-.mainContainer, .container_colecoes, .container_maisfotos{
-  /*border: red solid;*/
+.mainContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
   margin-left: 7%;
   margin-right: 7%;
+}
+
+.container_colecoes{
+ 
+}
+
+.container_maisfotos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.cardWrapper{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1Wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 
 .pesquisa input[type='text']{
@@ -54,7 +76,7 @@
 
 .contentWrapper{
   display: flex;
-  gap:10px;  
+  gap:5px;  
   justify-content: center; 
 }
 
@@ -63,19 +85,12 @@
   color: #ffff;
   display: flex;
   flex-direction: column;
+  width: 33%;
   justify-content: flex-end;  
+
 }
 h3, p{
   margin-left: 05px;
-}
-
-
-
-.cardWrapper {
-  display: flex;
-  flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
-  gap: 20px; /* Espaçamento entre as imagens */
-  justify-content: center;
 }
   
 .card {
@@ -110,4 +125,13 @@ hr {
   height: auto;
 }
 
+.foto1{
+  width: 76%;
+ 
+}
+
   
+.foto1 img{
+  height: 100%;
+  width: 100%;
+}
