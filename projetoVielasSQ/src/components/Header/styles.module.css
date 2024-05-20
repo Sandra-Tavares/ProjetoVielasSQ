@@ -54,4 +54,33 @@ nav {
 
 }
 
+h3{
+    font-size: 1rem;
+}
 
+
+@media(min-width:320px) and (max-width: 762px){
+
+    .header{
+        
+    }
+
+    nav{
+     
+      margin-left: 5%;
+      width: 40%;
+    }
+
+    .textocontainer {
+        display:flex; 
+        align-items: center;
+        justify-content: flex-end;
+        width: 45%;
+        margin-right: 5%;
+       }
+
+       h3{
+        font-size: 0.6rem;
+    }
+
+}
