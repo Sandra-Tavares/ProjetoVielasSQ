@@ -65,8 +65,9 @@
   color: #ffff;
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 33.3%;
   justify-content: flex-end;  
+
 
 }
 h3, p{
@@ -105,10 +106,23 @@ hr {
 }
 
 .foto1{
-  width: 76%; 
+  width: 76%;
+  padding-left: 20px;
+   
 }
 
 .foto1 img{
   height: 100%;
   width: 100%;
+}
+
+
+@media(min-width:320px) and (max-width: 762px){
+
+  .barraMenu {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+
 }
