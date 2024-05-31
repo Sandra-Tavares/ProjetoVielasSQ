@@ -1,8 +1,13 @@
+import { Header } from '../../components/Header';
 import styles from './styles.module.css';
+import{Footer} from '../../components/Footer';
+import {Search1} from '../../components/Search1';
 
   export const Home = () => {
     return (
       <>
+      <Header/>
+      <Search1/>
           <div className={styles.containerMenu}>
             <ul className={styles.barraMenu}>
               <li><a href="#">#Paraisopolis</a></li>
@@ -81,6 +86,9 @@ import styles from './styles.module.css';
             </div>
           </div>
         </div>
+        <Footer/>
       </>
     );
   };
+
+  export default Home;

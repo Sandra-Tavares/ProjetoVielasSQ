@@ -11,10 +11,7 @@
     display: flex;
     cursor: pointer;
     align-items: center;
-    gap: 10px;
-
- 
-     
+    gap: 10px;    
 }
 
 .header {

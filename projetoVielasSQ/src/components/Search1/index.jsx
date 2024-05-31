@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
-import { CiSearch } from "react-icons/ci";
+//import { Search } from "react-icons/ci";
 
-export const Search = () => {
+export const Search1 = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.pesquisa}>
@@ -14,3 +14,5 @@ export const Search = () => {
     </div>
   );
 };
+
+export default Search1;
