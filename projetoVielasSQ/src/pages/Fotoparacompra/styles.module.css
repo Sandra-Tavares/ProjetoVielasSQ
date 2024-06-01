@@ -8,15 +8,13 @@
     flex-direction: row;
     margin-left: 7%;
     margin-top: 3%;
-    gap: 10px;  
+    margin-right: 7%;
+    gap: 10px; 
+    align-items: center; 
 }
 
-.texto{
-    display: flex;
-    flex-direction: column;
-    
-}
 h3{
+text-align: left;
     color: #000;
 }
 p{
@@ -36,26 +34,27 @@ cursor: pointer;
 }
 
 .containerFotocompra2{
-    display: flex;
-    flex-direction: row;
-    margin-left: 7%;
-    margin-top: 3%;
-    gap: 2px;  
-    width: 70%;
+  /* border: red solid; */
+  display: flex;
+  margin-left: 7%;
+  margin-top: 3%;
+  align-items: center;
 
+}
+.containerFotocompra2 img{
+  width: 30%;
 }
 
 .texto2{
-    display: flex;
-    flex-direction: column;
-}
-
-.containerFotocompra2 img{
-    width: 70%;
+  width: 29%;
+  /* border: rgb(43, 0, 255) solid; */
+  margin-left: 1%;
+  overflow-wrap: break-word;
 }
 
 
 .barraMenu2 {
+    margin-top: 1%;
     width: 70%;
     display: flex;
     justify-content: center;  
@@ -80,32 +79,28 @@ cursor: pointer;
 }
 
 .container_fotosSemelhantes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  border: #000 solid 5px;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   }
   
-  .cardWrapper{
-    display: flex;
-    justify-content: space-between;
-  }
+
   
   .card1Wrapper{
+    border: gray solid;
     display: flex;
-    justify-content: space-between;
+  
+    align-items: center;
   }
   
   .contentWrapper{
     display: flex;
-    gap:5px;  
-    justify-content: center; 
-  }
-
-  
-  .card1Wrapper{
-    display: flex;
-    justify-content: space-between;
+    gap:10px;  
+    align-items: center;
   }
 
    
@@ -119,7 +114,7 @@ cursor: pointer;
     height: auto;
   }
   
-
-  .container_fotosSemelhantes h3{
- margin-left: 7%;
+   .title{
+    border: green solid;
+    margin-left: 7%;
   }
