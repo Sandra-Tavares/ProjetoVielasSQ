@@ -50,10 +50,10 @@ export const Fotoparacompra = () => {
             </ul>
           </div>
 
+          <div className={styles.title}>
+          <h3>Fotos semelhantes</h3></div>
+          {/* <div className={styles.Fotoparacompra}> */}
           <div className={styles.container_fotosSemelhantes}>
-            <div className={styles.title}>
-            </div>
-          <h3>Fotos semelhantes</h3>
           <div className={styles.card1Wrapper}>
             <div className={styles.card1}>
               <img src="semelhantes1.png" alt="semelhantes1"/>
@@ -88,7 +88,6 @@ export const Fotoparacompra = () => {
             </div>
             </div>
             </div>
-          
           
           
        <Footer/>
