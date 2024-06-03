@@ -1,0 +1,59 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family: 'Space Mono', monospace;
+}
+
+.containercarcompras{
+margin-left: 7%;
+margin-right: 5%;
+margin-top:5%;
+
+}
+
+.carcompras{
+ margin-left: 7%;
+ margin-top: 3%;
+ margin-right: 5%;
+ display: flex;
+ border: gray solid;
+}
+
+.carcompras img{
+max-width: 50%;
+max-height: 50%;
+margin-top: 5px;
+margin-left: 2%;
+margin: 2% 1% 10% 2%;
+}
+
+.textomeio{
+justify-content: space-between;
+margin-top: 2%;
+
+}
+
+.textodireita{
+    justify-content: space-around;
+    margin-top: 2%;
+    
+}
+
+.textodireitainf{
+margin-top: 20%;
+
+}
+
+.textoinf{
+text-align: right;
+margin-right: 20%;
+margin-top: 5%;
+}
+
+.botaoprosseguir{
+text-align: right;
+margin-right: 15%;
+margin-top: 5%;
+font-size: 1rem;
+}
