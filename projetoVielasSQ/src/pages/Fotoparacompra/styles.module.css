@@ -13,10 +13,11 @@
     align-items: center; 
 }
 
-h3{
+.containerFotocompra h3{
 text-align: left;
     color: #000;
 }
+
 p{
    font-size: 15px;
 }
@@ -24,13 +25,20 @@ p{
     font-size: 12px;
 }
 
-.botaoComprar h1{
-padding: 5px 10px;
-background-color: #4761B4;
-color: #fff;
-border: none;
-border-radius: 16px;
-cursor: pointer;
+.botaoComprar button{
+  border-radius: 16px;
+  background-color: #4761B4;
+  color: #fff;
+  /* padding: 1px 4px; */
+  border: none;
+  width: 140px;
+  height: 45px;
+  cursor: pointer;
+  font-size: 1.9rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  margin-top: 20px;
+  
 }
 
 .containerFotocompra2{

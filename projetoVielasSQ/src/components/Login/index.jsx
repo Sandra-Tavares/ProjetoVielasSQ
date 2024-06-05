@@ -9,7 +9,7 @@
       <h1>Bem Vindo!</h1> 
       <input type='text'placeholder="Email"/>
       <input type="password" placeholder="Senha"/>
-    <div>me mantenha informado</div>
+      <input type="checkbox" name="informe" value="me"/> me mantenha informado
     
     <div className={styles.button}>
       <button>ENTRAR</button>

@@ -21,13 +21,18 @@ export const Fotoparacompra = () => {
         <br></br>
        
        <div className={styles.carrinho}>
-        <p>Adicionar ao carrinho (compra indivisual)</p>
-        <p>Adicionar ao meu pacote (planos)</p>
+        <input type='radio'/>
+        <a>Adicionar ao carrinho (compra indivisual)</a>
         <br></br>
+        <br></br>
+        <input type='radio'/><a>Adicionar ao meu pacote (planos)</a>
+      
+        </div>
+
         <div className={styles.botaoComprar}>
-           <button><h1>COMPRAR</h1></button> 
+           <button>COMPRAR</button> 
         </div>
-        </div>
+      
         </div>
         </div>
 
