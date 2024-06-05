@@ -6,68 +6,84 @@ font-family: 'Space Mono', monospace;
 }
 
 .containercarcompras{
-margin-left: 7%;
-margin-right: 5%;
 margin-top:5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
 
+.containercarcompras .titulo{
+width: 90%;
 }
 
 .carcompras{
- margin-left: 7%;
- margin-top: 3%;
- margin-right: 5%;
- display: flex;
- border: gray solid;
+padding: 25px 74px 29px 28px;
+width: 90%;
+margin-top: 3%;
+display: flex;
+border: gray solid;
+gap: 5px;
 }
 
-.carcompras img{
-max-width: 50%;
-max-height: 50%;
-margin-top: 5px;
-margin-left: 2%;
-margin: 2% 1% 10% 2%;
+.carImagem{
+width: 70%;
+}
+
+.carImagem img{
+width: 100%;
 }
 
 .textomeio{
-justify-content: space-between;
-margin-top: 2%;
-
+width: 40%;
+font-size: 1.25rem;
 }
 
 .textodireita{
-    justify-content: space-around;
-    margin-top: 2%;
-    
+height: 0%;
+width: 100%;
+}
+
+.textodireita p{
+font-size: 1.25rem;
+text-align: justify;
+
 }
 
 .textodireitainf{
 margin-top: 20%;
+font-size: 1.25rem;
+width: 100%;
+}
 
+.textodireita span{
+color:orangered;
+text-decoration: underline;
+}
+
+.textodireitainf input{
+cursor: pointer;
 }
 
 .textoinf{
-text-align: right;
-margin-right: 20%;
 margin-top: 5%;
+margin-left: 20%;
+gap: 15px;
 }
 
 .botaoprosseguir{
-margin-right: 15%;
 margin-top: 5%;
-text-align: right;
-border: none;
 }
 
 .botaoprosseguir button{
-Border:None
+border:none
 }
 
 .botaoprosseguir h3{
 text-align: center;
 font-size: 1rem;
-padding: 10px 20px;
+padding: 10px 10px;
 background-color: #4761B4;
 border-radius: 20px;
 cursor: pointer;
-
 }
