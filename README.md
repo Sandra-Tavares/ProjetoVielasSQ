@@ -1,3 +1,23 @@
+# Projeto Vielas — Banco de imagens e diversidade periférica
+
+## Objetivo
+
+Projeto voluntário voltado à representação da diversidade das periferias de São Paulo por meio de um banco de imagens, em parceria com o Programar Com Você, conforme a documentação original.
+
+## Público e proposta de valor
+
+Apoiar profissionais de jornalismo e produtores de conteúdo na busca de pautas, personagens e histórias que representem diferentes vozes sociais.
+
+## Tecnologias mencionadas
+
+React, Styled Components e Vite, conforme os termos da documentação original.
+
+## Status
+
+O site é descrito como em desenvolvimento. A raiz deste repositório contém apenas o README, portanto as tecnologias e funcionalidades não puderam ser verificadas no código.
+
+## Material original
+
 🚧Projeto Vielas
 
 ▶️Descrição
